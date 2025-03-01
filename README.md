@@ -48,3 +48,5 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jaysolanki0906&show_icons=true&locale=en" alt="jaysolanki0906" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jaysolanki0906&" alt="jaysolanki0906" /></p>
+### 🐍 Contribution Snake
+![snake gif](https://github.com/jaysolanki0906/jaysolanki0906/blob/output/github-contribution-grid-snake.svg)
