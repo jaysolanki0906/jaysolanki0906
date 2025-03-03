@@ -19,13 +19,12 @@ jobs:
         with:
           name: snake-animation
           path: dist/github-contribution-grid-snake.svg
-      - name: Push to the output branch
+      - name: Push dist directory to output branch
         run: |
-          git config --global user.email "your-email@example.com"
-          git config --global user.name "YOUR_GITHUB_USERNAME"
-          git clone --branch=output https://github.com/${{ github.repository }} output
-          cp dist/github-contribution-grid-snake.svg output/github-contribution-grid-snake.svg
-          cd output
-          git add github-contribution-grid-snake.svg
-          git commit -m "Generated snake animation"
-          git push
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git config --global user.name "github-actions[bot]"
+            git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/jaysolanki0906/jaysolanki0906.git
+            git checkout output
+            git add dist
+            git commit -m "Update dist files"
+            git push origin output --force
