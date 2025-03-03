@@ -20,6 +20,10 @@ jobs:
           outputs: |
             .github/snake/github-contribution-grid-snake.svg
 
+      - name: Check if the file exists
+        run: ls -R .github/snake || echo "File not found!"
+
+
       - name: Upload snake animation artifact
         uses: actions/upload-artifact@v4
         with:
