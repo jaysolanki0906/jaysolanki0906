@@ -50,5 +50,5 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=jaysolanki0906&" alt="jaysolanki0906" /></p>
 <br clear="both">
 
-<h3>Github Contributions</h3>
-![Snake animation](https://raw.githubusercontent.com/jaysolanki0906/jaysolanki0906/output/dist/github-contribution-grid-snake.svg)
+
+
