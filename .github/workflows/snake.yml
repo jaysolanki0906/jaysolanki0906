@@ -21,7 +21,16 @@ jobs:
             .github/snake/github-contribution-grid-snake.svg
 
       - name: Check if the file exists
-        run: ls -R .github/snake || echo "File not found!"
+        run: ls -R .github/workflows/snake || echo "File not found!"
+
+      - name: Ensure .github/snake directory exists
+        run: mkdir -p .github/snake
+      - name: Commit and push changes
+        run: |
+          git add .github/snake/github-contribution-grid-snake.svg
+          git commit -m "Update snake animation"
+          git push origin output --force
+
 
 
       - name: Upload snake animation artifact
