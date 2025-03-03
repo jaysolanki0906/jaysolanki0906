@@ -51,4 +51,4 @@
 <br clear="both">
 
 <h3>Github Contributions</h3>
-<img src="https://github.com/jaysolanki0906/jaysolanki0906/blob/main/.github/workflows/snake.yml" alt="Snake animation" />
+(https://github.com/jaysolanki0906/jaysolanki0906/blob/output/github-contribution-grid-snake.gif)
