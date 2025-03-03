@@ -51,4 +51,4 @@
 <br clear="both">
 
 <h3>Github Contributions</h3>
-(https://github.com/jaysolanki0906/jaysolanki0906/blob/output/github-contribution-grid-snake.gif)
+![snake gif](https://github.com/jaysolanki0906/jaysolanki0906/blob/output/github-contribution-grid-snake.gif)
